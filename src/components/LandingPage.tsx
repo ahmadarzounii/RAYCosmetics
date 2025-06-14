@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import productsData from '../data/products.json'; // adjust the path as needed
 
+
 const whatsappNumber = '96176769266';  // Your WhatsApp number in international format, no "+" or dashes
 
 const SkeletonCard = () => (
