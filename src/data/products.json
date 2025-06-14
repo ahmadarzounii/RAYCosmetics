@@ -1,26 +1,85 @@
 [
   {
     "id": 1,
-    "title": "Organic Glow Serum",
-    "description": "A hydrating serum made with 100% organic ingredients.",
-    "price": "$29.99",
+    "title": "Hair Loss Oil",
+    "description": "Say goodbye to thinning strands and hello to fuller, healthier hair.Infused with nourishing botanical extracts, cold-pressed oils, and a touch of ancient herbal wisdom, our Hair Revival Oil penetrates deep into your scalp to stimulate hair follicles, strengthen roots, and revive dormant strands.",
+    "price": "$20",
     "image": "/images/serum.jpg",
     "rating": 5
   },
   {
     "id": 2,
-    "title": "Herbal Face Cleanser",
-    "description": "Gentle and effective face wash for all skin types.",
-    "price": "$19.99",
+    "title": "Facial Cleanser-300 ml",
+    "description": "Gently removes dirt, oil, and makeup while keeping your skin hydrated and refreshed.Infused with natural extracts to cleanse without stripping—leaving your face soft, smooth, and glowing. Perfect for daily use. Suitable for all skin types.",
+    "price": "$10",
     "image": "/images/cleanser.jpg",
     "rating": 5
   },
   {
     "id": 3,
-    "title": "Aloe Vera Moisturizer",
-    "description": "Locks in moisture and gives your skin a healthy glow.",
-    "price": "$24.99",
+    "title": "Face Lifting Cream-30 ml",
+    "description": "Instantly firm, smooth, and revitalize your skin with our luxurious lifting cream. Formulated with collagen-boosting ingredients and natural botanicals, it visibly reduces fine lines and enhances skin elasticity. Achieve a youthful glow with daily use—perfect for tired or aging skin.",
+    "price": "10$",
     "image": "/images/moisturizer.jpg",
     "rating": 5
+  },
+  
+  {
+    "id": 4,
+    "title": "Face Whitening Cream - 30ml",
+    "description": "Reveal a brighter, more radiant complexion. Our gentle whitening formula helps reduce dark spots, evens out skin tone, and leaves your face glowing with natural luminosity.",
+    "price": "10$",
+    "image": "/images/face-whitening.jpg",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "title": "Under Eye Cream",
+    "description": "Say goodbye to tired eyes! This lightweight cream targets puffiness, dark circles, and fine lines—refreshing and hydrating the delicate under-eye area for a well-rested, youthful look.",
+    "price": "10$",
+    "image": "/images/under-eye.jpg",
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "title": "Lashes & Brows Serum",
+    "description": "Nourish, strengthen, and grow your lashes and brows naturally. Enriched with botanical oils and vitamins, this serum helps you achieve fuller, bolder beauty—no makeup needed.",
+    "price": "8$",
+    "image": "/images/lash-brow.jpg",
+    "rating": 5
+  },
+  {
+    "id": 7,
+    "title": "Foot Balm - 30g",
+    "description": "Soothe and repair dry, cracked heels with our ultra-moisturizing foot balm. Infused with natural butters and essential oils, it softens tough skin and restores smoothness overnight.",
+    "price": "8$",
+    "image": "/images/foot-balm.jpg",
+    "rating": 5
+  },
+  {
+    "id": 8,
+    "title": "Body Lotion - 300ml",
+    "description": "Wrap your skin in deep hydration. This silky-smooth body lotion absorbs quickly, leaving your skin soft, supple, and lightly scented. Perfect for daily glow from head to toe.",
+    "price": "12$",
+    "image": "/images/body-lotion.jpg",
+    "rating": 5
+  },
+  {
+    "id": 9,
+    "title": "Nail & Cuticle Oil",
+    "description": "Treat your nails to some TLC! This nourishing oil strengthens brittle nails and softens dry cuticles, promoting healthy growth and a natural shine.",
+    "price": "7$",
+    "image": "/images/nail-oil.jpg",
+    "rating": 5
+  },
+  {
+    "id": 10,
+    "title": "Tanning Oil - 250ml",
+    "description": "Get that sun-kissed glow the natural way. Our tanning oil enhances your tan while hydrating your skin with coconut and carrot seed oils. Achieve a golden, radiant bronze—beach-ready anytime.",
+    "price": "8$",
+    "image": "/images/tanning-oil.jpg",
+    "rating": 5
   }
+
+
 ]
