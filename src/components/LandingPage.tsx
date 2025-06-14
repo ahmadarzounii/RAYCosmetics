@@ -48,6 +48,7 @@ const ProductGrid: React.FC = () => {
                     src={product.image}
                     alt={product.title}
                     className="w-full h-64 object-contain rounded-md mb-4"
+                    loading="lazy"
                   />
                   <h3 className="text-xl font-semibold text-violetCustom">{product.title}</h3>
                   <p className="text-gray-600 text-sm mt-2 mb-3">{product.description}</p>
