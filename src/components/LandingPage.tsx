@@ -1,7 +1,7 @@
 import React from 'react';
 import products from '../data/products.json'; // adjust the path as needed
 
-const whatsappNumber = '9613123456';  // Your WhatsApp number in international format, no "+" or dashes
+const whatsappNumber = '96176769266';  // Your WhatsApp number in international format, no "+" or dashes
 
 const ProductGrid: React.FC = () => {
   return (
