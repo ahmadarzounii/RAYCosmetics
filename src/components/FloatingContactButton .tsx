@@ -153,7 +153,7 @@ const FloatingContactButton = () => {
         ref={btnRef}
         onClick={() => setOpen(!open)}
         onMouseDown={onMouseDown}
-        className={`fixed z-50 flex items-center justify-center w-14 h-14 rounded-full bg-pink-600 text-white shadow-lg cursor-pointer select-none ${
+        className={`fixed z-50 flex items-center justify-center w-14 h-14 rounded-full bg-violetCustom text-white shadow-lg cursor-pointer select-none ${
           dragging ? "opacity-70" : "opacity-100"
         } transition-opacity`}
         style={{ top: position.y, left: position.x, userSelect: "none" }}
@@ -185,7 +185,7 @@ const FloatingContactButton = () => {
 
           <input
             type="text"
-            className={`w-full border rounded-md p-2 mb-1 focus:outline-pink-500 text-sm sm:text-base ${
+            className={`w-full border rounded-md p-2 mb-1 focus:outline-violetCustom text-sm sm:text-base ${
               nameError ? "border-red-500" : "border-gray-300"
             }`}
             placeholder="Your name"
@@ -196,7 +196,7 @@ const FloatingContactButton = () => {
 
           <input
             type="email"
-            className={`w-full border rounded-md p-2 mb-1 focus:outline-pink-500 text-sm sm:text-base ${
+            className={`w-full border rounded-md p-2 mb-1 focus:outline-violetCustom text-sm sm:text-base ${
               emailError ? "border-red-500" : "border-gray-300"
             }`}
             placeholder="Your email"
@@ -206,7 +206,7 @@ const FloatingContactButton = () => {
           {emailError && <p className="text-red-500 text-xs mb-2">{emailError}</p>}
 
           <textarea
-            className={`w-full border rounded-md p-2 mb-1 focus:outline-pink-500 text-sm sm:text-base ${
+            className={`w-full border rounded-md p-2 mb-1 focus:outline-violetCustom  text-sm sm:text-base ${
               messageError ? "border-red-500" : "border-gray-300"
             }`}
             rows={4}
@@ -217,7 +217,7 @@ const FloatingContactButton = () => {
           {messageError && <p className="text-red-500 text-xs mb-2">{messageError}</p>}
 
           <button
-            className="bg-pink-600 hover:bg-pink-700 text-white rounded px-4 py-2 w-full sm:w-auto"
+            className="bg-violetCustom hover:bg-purple-300 text-white rounded px-4 py-2 w-full sm:w-auto"
             onClick={sendMessage}
           >
             Send

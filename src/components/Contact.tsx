@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
 
   return (
     <section id="contact" className="py-16 px-6 bg-white text-center">
-      <h2 className="text-3xl font-semibold text-pink-600 mb-4">Contact Us</h2>
+      <h2 className="text-3xl font-semibold text-violetCustom mb-4">Contact Us</h2>
       <p className="text-gray-600 max-w-md mx-auto mb-6">
         Have a question or want to know more? Drop us a message anytime!
       </p>
@@ -113,7 +113,7 @@ const Contact: React.FC = () => {
 
         <button
           type="submit"
-          className="w-full bg-pink-600 text-white py-2 rounded hover:bg-pink-700"
+          className="w-full bg-violetCustom hover:bg-purple-300 text-white py-2 rounded"
         >
           Send Message
         </button>

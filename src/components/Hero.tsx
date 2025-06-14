@@ -11,9 +11,9 @@ const Hero: React.FC = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col items-center justify-center text-center px-6 bg-pink-50 pt-20"
+      className="min-h-screen flex flex-col items-center justify-center text-center px-6 bg-purple-50 pt-20"
     >
-      <h1 className="text-4xl md:text-6xl font-bold text-pink-600 mb-4">
+      <h1 className="text-4xl md:text-6xl font-bold text-violetCustom mb-4">
         Glow Naturally with RAYCosmetics
       </h1>
       <p className="text-lg text-gray-700 max-w-xl">
@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
       </p>
       <button
         onClick={handleShopNow}
-        className="mt-6 px-6 py-3 bg-pink-600 text-white rounded-xl shadow-md hover:bg-pink-700 transition"
+        className="mt-6 px-6 py-3 bg-violetCustom text-white rounded-xl shadow-md hover:bg-purple-300 transition"
       >
         Shop Now
       </button>

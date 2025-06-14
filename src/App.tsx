@@ -5,6 +5,7 @@ import ContactUs from "./components/Contact";
 import FloatingContactButton from "./components/FloatingContactButton ";
 import Hero from "./components/Hero";
 import LandingPage from "./components/LandingPage";
+import AboutUs from "./components/AboutUs";
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Hero />} />
           <Route path="/products" element={<LandingPage />} />
+           <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactUs />} />
       </Routes>
     </Router>
